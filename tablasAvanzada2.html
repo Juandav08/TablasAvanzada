@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esports Players</title>
+
+    <script src="javas.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            margin: 0;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background-color: #009688;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f1f1f1;
+        }
+
+        tr:hover {
+            background-color: #e0f2f1;
+        }
+
+        .table-title {
+            background-color: #004d40;
+            color: #fff;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Esports</h1>
+
+    <table>
+        <tr class="table-title">
+            <th colspan="4">League of Legends</th>
+        </tr>
+        <tr>
+            <th>Nickname</th>
+            <th>Equipo</th>
+            <th>País</th>
+            <th rowspan="4" style="vertical-align: middle;"><img src="Lol.jpeg" style="width: 200px; height: auto;">
+            </th>
+        </tr>
+        <tr>
+            <td>Faker</td>
+            <td>T1</td>
+            <td>Korea</td>
+
+        </tr>
+        <tr>
+            <td>Josedeodo</td>
+            <td>ESTRAL</td>
+            <td>Argentina</td>
+        </tr>
+        <tr>
+            <td>Elyoya</td>
+            <td>MAD Lions KOI</td>
+            <td>España</td>
+        </tr>
+        <tr>
+            <td colspan="4"> <button onclick="mostrarMensaje('League of Legends')">League of Legends</button></td>
+        </tr>
+    </table>
+
+    <table>
+        <tr class="table-title">
+            <th colspan="4">VALORANT</th>
+        </tr>
+        <tr>
+            <th rowspan="4" style="vertical-align: middle;"><img src="valo.webp" style="width: 200px; height: auto;">
+            </th>
+            <th>Nickname</th>
+            <th>Equipo</th>
+            <th>País</th>
+
+        </tr>
+        <tr>
+            <td>Keznit</td>
+            <td>KRÜ</td>
+            <td>Chile</td>
+
+        </tr>
+        <tr>
+            <td>TenZ</td>
+            <td>Sentinels</td>
+            <td>Canadá</td>
+        </tr>
+        <tr>
+            <td>Wo0t</td>
+            <td>Team Heretics</td>
+            <td>Turquía</td>
+        </tr>
+        <tr>
+            <td colspan="4"> <button onclick="mostrarMensaje('VALORANT')">VALORANT</button></td>
+        </tr>
+    </table>
+
+    <table>
+        <tr class="table-title">
+            <th colspan="4">Counter-Strike</th>
+        </tr>
+        <tr>
+            <th>Nickname</th>
+            <th rowspan="4" style="vertical-align: middle;"><img src="cs.jpg" style="width: 200px; height: auto;"></th>
+            <th>Equipo</th>
+            <th>País</th>
+
+        </tr>
+        <tr>
+            <td>S1mple</td>
+            <td>Navi</td>
+            <td>Ucrania</td>
+
+        </tr>
+        <tr>
+            <td>Dav1deuS</td>
+            <td>RED Canids</td>
+            <td>Chile</td>
+        </tr>
+        <tr>
+            <td>KennyS</td>
+            <td>Retirado</td>
+            <td>Francia</td>
+        </tr>
+        <tr>
+            <td colspan="4"> <button onclick="mostrarMensaje('Counter-Strike')">Counter-Strike</button></td>
+        </tr>
+    </table>
+    <h1>HTML</h1>
+    <p>HTML (Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language) es el componente más básico de la
+        Web. Define el significado y la estructura del contenido web.
+        "Hipertexto" hace referencia a los enlaces que conectan páginas web entre sí, ya sea dentro de un único sitio
+        web o entre sitios web. Los enlaces son un aspecto fundamental de la Web. Al subir contenido a Internet y
+        vincularlo a las páginas creadas por otras personas, te conviertes en un participante activo en la «World Wide
+        Web» (Red Informática Mundial).</p>
+    <h1>CSS</h1>
+    <p>Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para
+        describir la presentación de documentos HTML o XML (incluyendo varios lenguajes basados en XML como SVG, MathML
+        o XHTML). CSS describe cómo debe ser renderizado el elemento estructurado en la pantalla, en papel, en el habla
+        o en otros medios.</p>
+
+</body>
+
+</html>
